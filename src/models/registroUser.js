@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const newSchema = mongoose.Schema({
-    name: {type: String},
+    name: {type: String, required: true},
     //lastName: {type: String, required: true}
     // age: {type: Number, required: true},
     // password: {type: String, required: true},
